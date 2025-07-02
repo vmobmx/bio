@@ -1,3 +1,43 @@
 body {
-    background-color: aquamarine;
+    background-color: #000;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ff4929;
+}
+
+header, #city {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 30px;
+}
+
